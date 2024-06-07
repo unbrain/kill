@@ -90,6 +90,7 @@ const lockList = async (list) => {
     await locking(item);
     console.log(i);
   }
+  app()
   // Promise.all(allArr);
 }
 
@@ -102,13 +103,36 @@ const getInternal = () => {
   return list = [{ "timeIntervalCode": "08:00-08:30", "timeFrom": "08:00:00", "timeTo": "08:30:00", "timeIntervalView": "08:00~08:30", "count": 1 }, { "timeIntervalCode": "08:30-09:00", "timeFrom": "08:30:00", "timeTo": "09:00:00", "timeIntervalView": "08:30~09:00", "count": 1 }, { "timeIntervalCode": "09:00-09:30", "timeFrom": "09:00:00", "timeTo": "09:30:00", "timeIntervalView": "09:00~09:30", "count": 2 }, { "timeIntervalCode": "09:30-10:00", "timeFrom": "09:30:00", "timeTo": "10:00:00", "timeIntervalView": "09:30~10:00", "count": 4 }, { "timeIntervalCode": "10:00-10:30", "timeFrom": "10:00:00", "timeTo": "10:30:00", "timeIntervalView": "10:00~10:30", "count": 3 }];
 }
 
+const getAuth = async (json) => {
+  delete headers['hos-code'];
+  const res = await got.post('https://aceso.bjhsyuntai.com/api/mobile/third/mp/auth', {
+    searchParams: {
+      jsCode: '0b3JRhGa1zCJzH0VujGa1EVbgO3JRhGR',
+      _t: Date.now()
+    },
+    json,
+    headers: {
+      ...headers,
+      'hos-code': hosCode,
+    },
+  }).json()
+  console.log(res);
+  return res;
+
+}
+
 
 export const app = async () => {
   visitDate = '2024-06-14';
   deptCode = '971';
   // deptCode = 996
   hosCode = '02110001';
-  const { data } = await deptDetail(headers);
+  const { data, code } = await deptDetail(headers);
+  // if (code === 301) {
+  //   console.log('无数据 重试 301', Date.now());
+  //   getAuth(headers);
+  // }
+  // else 
   if (data) {
     const hospital = data.list;
     if (hospital && hospital.length > 0) {
@@ -119,13 +143,13 @@ export const app = async () => {
       setTimeout(function () {
         // body
         app();
-      }, 500);
+      }, 1000);
     }
   } else {
     console.log('无数据 重试', Date.now())
     setTimeout(function () {
       // body
       app();
-    }, 500);
+    }, 1000);
   }
 }

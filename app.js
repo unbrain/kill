@@ -1,6 +1,7 @@
 import Koa from 'koa';
 import got from 'got';
 import { save } from './save.js';
+import proxy  from 'koa-proxies';
 const app = new Koa();
 
 const getDetail = async (headers, url) => {
@@ -27,19 +28,8 @@ app.use(async ctx => {
 // app.use(proxy('/api', {
 //   events: {
 //     proxyReq(proxyReq, req, res) {
-//       // console.log(proxyReq, req, res);
 //       console.log(req);
-//       const currentDirectory = process.cwd();
-//       // 构建文件路径
-//       const filePath = path.join(currentDirectory, 'header.json');
-//       // console.log(filePath);
-//       fs.writeFile(filePath, JSON.stringify(req.headers, null, 2), (err) => {
-//         if (err) {
-//           console.error('An error occurred while writing JSON to the file:', err);
-//         } else {
-//           console.log('JSON file has been written successfully.');
-//         }
-//       });
+//       save('header.json', req.headers);
 //     },
 //   },
 //   target: 'https://aceso.bjhsyuntai.com', // 目标服务器地址 (HTTPS)
