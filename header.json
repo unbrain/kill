@@ -1,0 +1,20 @@
+{
+  "host": "aceso.bjhsyuntai.com",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 MicroMessenger/6.8.0(0x16080000) NetType/WIFI MiniProgramEnv/Mac MacWechat/WMPF MacWechat/3.8.7(0x13080712) XWEB/1191",
+  "hos-code": "02110001",
+  "content-type": "application/json;charset=UTF-8",
+  "client-channel": "WECHAT_MP",
+  "r-a-token": "21iECtgero5Q0Rj0zJDVLl5PqE5LDkoiuhE6AwrZ/5VuwnBYLlLVEspwu8fVc/cxnG0uMRog5nsjTysBS7xYEOG4dYcRb2g8+EBa9rn3Plg=",
+  "xweb_xhr": "1",
+  "app-code": "02110001_HUANZHEDUAN",
+  "u-u-ticket": "5ZHlOk-4hI_2m6ulp_6EyBLexHUpch9jtpGwDyhkxJ4qFADaLwEy3Lc7p3akO_zUd4xjaQ..",
+  "a-ticket": "f5yxeutHbQuW44aQTxarUWUTDHiKx7GvpahD62i1-YLoXhvW0xkxLPzTsvZ4dIgS-KDKbCW0qh1FnoOZF4A2q9FKvYdncjMDBxDr-70EApw.",
+  "accept": "*/*",
+  "sec-fetch-site": "cross-site",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://servicewechat.com/wx8dd7d6fe6d5dda8a/41/page-frame.html",
+  "accept-encoding": "gzip",
+  "accept-language": "zh-CN,zh;q=0.9",
+  "connection": "close"
+}

@@ -1,0 +1,67 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "data": {
+    "list": [
+      {
+        "periodType": "AM",
+        "periodTypeView": "上午号源",
+        "sourceList": [
+          {
+            "deptCode": "971",
+            "doctorCode": "2605",
+            "doctorName": "运动医学普通号",
+            "doctorImg": "",
+            "doctorTitle": "ATTENDING_DOCTOR",
+            "doctorTitleView": "主治医师",
+            "doctorTagList": [],
+            "sourceCode": "82654||343",
+            "sourceName": "运动医学普通号",
+            "introduction": "擅长治疗肩袖损伤、网球肘、髋关节盂唇损伤、膝关节韧带损伤、半月板损伤、髌骨脱位、踝关节韧带损伤等。为了节约您的时间，建议携带核磁（MRI）片子就诊。",
+            "remark": null,
+            "sourceLevel": "ORDINARY",
+            "sourceLevelView": "普通门诊",
+            "price": "50.00",
+            "count": 0,
+            "sourceStatus": "SOLD_OUT",
+            "sourceStatusView": "约满",
+            "supportTimeInterval": false
+          }
+        ],
+        "displayNumber": 2,
+        "deadlineTakeTipsTimestamp": null,
+        "deadlineTakeTips": null
+      },
+      {
+        "periodType": "PM",
+        "periodTypeView": "下午号源",
+        "sourceList": [
+          {
+            "deptCode": "971",
+            "doctorCode": "2605",
+            "doctorName": "运动医学普通号",
+            "doctorImg": "",
+            "doctorTitle": "ATTENDING_DOCTOR",
+            "doctorTitleView": "主治医师",
+            "doctorTagList": [],
+            "sourceCode": "82654||344",
+            "sourceName": "运动医学普通号",
+            "introduction": "擅长治疗肩袖损伤、网球肘、髋关节盂唇损伤、膝关节韧带损伤、半月板损伤、髌骨脱位、踝关节韧带损伤等。为了节约您的时间，建议携带核磁（MRI）片子就诊。",
+            "remark": null,
+            "sourceLevel": "ORDINARY",
+            "sourceLevelView": "普通门诊",
+            "price": "50.00",
+            "count": 0,
+            "sourceStatus": "SOLD_OUT",
+            "sourceStatusView": "约满",
+            "supportTimeInterval": false
+          }
+        ],
+        "displayNumber": 2,
+        "deadlineTakeTipsTimestamp": null,
+        "deadlineTakeTips": null
+      }
+    ],
+    "refreshTimestamp": 1717729200000
+  }
+}

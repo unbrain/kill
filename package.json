@@ -1,0 +1,26 @@
+{
+  "name": "killjst",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^3.1.7",
+    "got": "^14.3.0",
+    "hpagent": "^1.2.0",
+    "koa": "^2.15.3",
+    "koa-proxies": "^0.12.4",
+    "koa-proxy": "1.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

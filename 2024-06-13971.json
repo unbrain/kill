@@ -1,0 +1,58 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "data": {
+    "list": [
+      {
+        "periodType": "PM",
+        "periodTypeView": "下午号源",
+        "sourceList": [
+          {
+            "deptCode": "971",
+            "doctorCode": "1791",
+            "doctorName": "李岳",
+            "doctorImg": "",
+            "doctorTitle": "ASSOCIATE_CHIEF_DOCTOR",
+            "doctorTitleView": "副主任医师",
+            "doctorTagList": [],
+            "sourceCode": "82939||36",
+            "sourceName": "李岳",
+            "introduction": "肩袖损伤修复术，肩关节脱位手术，55岁以下的前后交叉韧带重建术，髌骨脱位矫正重建术，中青年半月板损伤手术，髋关节撞击、盂唇损伤修复术，踝关节韧带修复，软骨损伤修复手术。确诊病情需要核磁（MRI），为了节省您的时间，建议持核磁片子就诊。",
+            "remark": null,
+            "sourceLevel": "EXPERT",
+            "sourceLevelView": "专家门诊",
+            "price": "60.00",
+            "count": 0,
+            "sourceStatus": "SOLD_OUT",
+            "sourceStatusView": "约满",
+            "supportTimeInterval": false
+          },
+          {
+            "deptCode": "971",
+            "doctorCode": "2605",
+            "doctorName": "运动医学普通号",
+            "doctorImg": "",
+            "doctorTitle": "ATTENDING_DOCTOR",
+            "doctorTitleView": "主治医师",
+            "doctorTagList": [],
+            "sourceCode": "82654||340",
+            "sourceName": "运动医学普通号",
+            "introduction": "擅长治疗肩袖损伤、网球肘、髋关节盂唇损伤、膝关节韧带损伤、半月板损伤、髌骨脱位、踝关节韧带损伤等。为了节约您的时间，建议携带核磁（MRI）片子就诊。",
+            "remark": null,
+            "sourceLevel": "ORDINARY",
+            "sourceLevelView": "普通门诊",
+            "price": "50.00",
+            "count": 0,
+            "sourceStatus": "SOLD_OUT",
+            "sourceStatusView": "约满",
+            "supportTimeInterval": false
+          }
+        ],
+        "displayNumber": 2,
+        "deadlineTakeTipsTimestamp": null,
+        "deadlineTakeTips": null
+      }
+    ],
+    "refreshTimestamp": 1717729200000
+  }
+}
